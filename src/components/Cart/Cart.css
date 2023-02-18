@@ -1,0 +1,55 @@
+.cart-content{
+    margin-top: 6em;
+    margin-bottom: 3em;
+    border: 1px solid #82ae46;
+}
+
+.cart-content .ant-table-thead > tr > th{
+    background-color: #82ae46;
+    color: #fff;
+}
+
+.delete-icon{
+    font-size: 20px;
+}
+
+.delete-icon:hover{
+    background-color: #82ae46;
+    cursor: pointer;
+    color: #fff;
+}
+
+.decrease-product, .increase-product{
+    cursor: pointer;
+}
+
+.change-quantity, .decrease-product, .increase-product{
+    border: 1px solid #ccc;
+}
+
+/* thanh toán tiền */
+.payment{
+    margin-bottom: 4em;
+    font-size: 20px;
+}
+
+.payment .sum{
+    color: red;
+}
+
+.payment .payment-text{
+    margin-top: 8px;
+}
+
+.pay-btn{
+    background: #82ae46;
+    color: #fff;
+    width: 120px;
+    border-color: #82ae46;
+    font-size: 16px;
+}
+
+.pay-btn:hover{
+    background: #6e9e2b;
+    border-color: #82ae46;
+}
